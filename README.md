@@ -17,4 +17,4 @@ On Ubuntu/debian :
         chmod +x run
         ln -s /home/toorop/btsync/service /etc/service/btsync 
 
-4. Enjoy
+4. Enjoyp
