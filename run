@@ -1,0 +1,5 @@
+#!/bin/sh
+BTSYNC=/usr/bin/btsync
+CONFIGFILE=/home/toorop/btsync/sync.conf
+USER=toorop
+exec setuidgid $USER $BTSYNC --config $CONFIGFILE 2>&1
